@@ -1,0 +1,636 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "NotificationService"
+provides-nominal:
+- "C16ServiceExtension19NotificationService"
+provides-member:
+- ["C16ServiceExtension19NotificationService", ""]
+provides-dynamic-lookup:
+- "contentHandler"
+- "serviceExtensionTimeWillExpire"
+- "bestAttemptContent"
+- "didReceive"
+depends-top-level:
+- "CastingPrecedence"
+- "Array"
+- "UNNotificationContent"
+- "UNNotificationRequest"
+- "Dictionary"
+- "AssignmentPrecedence"
+- !private "print"
+- "UNNotificationServiceExtension"
+- !private "URLSessionConfiguration"
+- "UNMutableNotificationContent"
+- !private "UNNotificationAttachmentOptionsTypeHintKey"
+- "NotificationService"
+- !private "URLSession"
+- !private "String"
+- !private "StringLiteralType"
+- !private "kUTTypePNG"
+- !private "URL"
+- !private "UNNotificationAttachment"
+- "Void"
+depends-member:
+- !private ["Vs11AnyHashable", "deinit"]
+- !private ["Ps9AnyObject", "UNNotificationAttachment"]
+- !private ["Ps9AnyObject", "UNNotificationAttachmentOptionsTypeHintKey"]
+- !private ["Ps9AnyObject", "URL"]
+- !private ["Ps9AnyObject", "URLSession"]
+- !private ["Ps9AnyObject", "URLSessionConfiguration"]
+- !private ["Ps9AnyObject", "attachments"]
+- ["Ps9AnyObject", "bestAttemptContent"]
+- !private ["Ps9AnyObject", "content"]
+- ["Ps9AnyObject", "contentHandler"]
+- !private ["Ps9AnyObject", "default"]
+- ["Ps9AnyObject", "didReceive"]
+- !private ["Ps9AnyObject", "downloadTask"]
+- !private ["Ps9AnyObject", "init"]
+- !private ["Ps9AnyObject", "kUTTypePNG"]
+- !private ["Ps9AnyObject", "mutableCopy"]
+- !private ["Ps9AnyObject", "print"]
+- !private ["Ps9AnyObject", "resume"]
+- ["Ps9AnyObject", "serviceExtensionTimeWillExpire"]
+- !private ["Ps9AnyObject", "userInfo"]
+- ["Ps9AnyObject", ""]
+- !private ["Sa", "Element"]
+- !private ["Sa", "deinit"]
+- !private ["Ps23BidirectionalCollection", "Element"]
+- !private ["Ps22BidirectionalIndexable", "Element"]
+- !private ["Ps17BitwiseOperations", "IntegerLiteralType"]
+- !private ["Ps17BitwiseOperations", "Stride"]
+- !private ["Ps17BitwiseOperations", "_DisabledRangeIndex"]
+- !private ["Sb", "deinit"]
+- !private ["CSo8CFString", "deinit"]
+- !private ["Ps7CVarArg", "Element"]
+- !private ["Ps7CVarArg", "Index"]
+- !private ["Ps7CVarArg", "IndexDistance"]
+- !private ["Ps7CVarArg", "IntegerLiteralType"]
+- !private ["Ps7CVarArg", "Key"]
+- !private ["Ps7CVarArg", "Stride"]
+- !private ["Ps7CVarArg", "SubSequence"]
+- !private ["Ps7CVarArg", "UNNotificationAttachment"]
+- !private ["Ps7CVarArg", "UNNotificationAttachmentOptionsTypeHintKey"]
+- !private ["Ps7CVarArg", "URL"]
+- !private ["Ps7CVarArg", "URLSession"]
+- !private ["Ps7CVarArg", "URLSessionConfiguration"]
+- !private ["Ps7CVarArg", "Value"]
+- !private ["Ps7CVarArg", "_DisabledRangeIndex"]
+- !private ["Ps7CVarArg", "_Element"]
+- !private ["Ps7CVarArg", "attachments"]
+- ["Ps7CVarArg", "bestAttemptContent"]
+- !private ["Ps7CVarArg", "content"]
+- ["Ps7CVarArg", "contentHandler"]
+- !private ["Ps7CVarArg", "default"]
+- ["Ps7CVarArg", "didReceive"]
+- !private ["Ps7CVarArg", "downloadTask"]
+- !private ["Ps7CVarArg", "init"]
+- !private ["Ps7CVarArg", "kUTTypePNG"]
+- !private ["Ps7CVarArg", "mutableCopy"]
+- !private ["Ps7CVarArg", "print"]
+- !private ["Ps7CVarArg", "resume"]
+- ["Ps7CVarArg", "serviceExtensionTimeWillExpire"]
+- !private ["Ps7CVarArg", "subscript"]
+- !private ["Ps7CVarArg", "userInfo"]
+- ["Ps7CVarArg", ""]
+- !private ["Vs9Character", "deinit"]
+- !private ["Vs11ClosedRange", "deinit"]
+- !private ["Ps10Collection", "Element"]
+- !private ["Ps10Collection", "Index"]
+- !private ["Ps10Collection", "IndexDistance"]
+- !private ["Ps10Collection", "Iterator"]
+- !private ["Ps10Collection", "Key"]
+- !private ["Ps10Collection", "SubSequence"]
+- !private ["Ps10Collection", "Value"]
+- !private ["Ps10Collection", "_Element"]
+- !private ["Ps10Collection", "subscript"]
+- !private ["Ps10Comparable", "IntegerLiteralType"]
+- !private ["Ps10Comparable", "Stride"]
+- !private ["Ps10Comparable", "_DisabledRangeIndex"]
+- !private ["Ps10Comparable", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "Element"]
+- !private ["Ps28CustomDebugStringConvertible", "Index"]
+- !private ["Ps28CustomDebugStringConvertible", "IndexDistance"]
+- !private ["Ps28CustomDebugStringConvertible", "Key"]
+- !private ["Ps28CustomDebugStringConvertible", "SubSequence"]
+- !private ["Ps28CustomDebugStringConvertible", "UNNotificationAttachment"]
+- !private ["Ps28CustomDebugStringConvertible", "UNNotificationAttachmentOptionsTypeHintKey"]
+- !private ["Ps28CustomDebugStringConvertible", "URL"]
+- !private ["Ps28CustomDebugStringConvertible", "URLSession"]
+- !private ["Ps28CustomDebugStringConvertible", "URLSessionConfiguration"]
+- !private ["Ps28CustomDebugStringConvertible", "Value"]
+- !private ["Ps28CustomDebugStringConvertible", "_Element"]
+- !private ["Ps28CustomDebugStringConvertible", "attachments"]
+- ["Ps28CustomDebugStringConvertible", "bestAttemptContent"]
+- !private ["Ps28CustomDebugStringConvertible", "content"]
+- ["Ps28CustomDebugStringConvertible", "contentHandler"]
+- !private ["Ps28CustomDebugStringConvertible", "default"]
+- ["Ps28CustomDebugStringConvertible", "didReceive"]
+- !private ["Ps28CustomDebugStringConvertible", "downloadTask"]
+- !private ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "kUTTypePNG"]
+- !private ["Ps28CustomDebugStringConvertible", "mutableCopy"]
+- !private ["Ps28CustomDebugStringConvertible", "print"]
+- !private ["Ps28CustomDebugStringConvertible", "resume"]
+- ["Ps28CustomDebugStringConvertible", "serviceExtensionTimeWillExpire"]
+- !private ["Ps28CustomDebugStringConvertible", "subscript"]
+- !private ["Ps28CustomDebugStringConvertible", "userInfo"]
+- ["Ps28CustomDebugStringConvertible", ""]
+- !private ["Ps29CustomPlaygroundQuickLookable", "IntegerLiteralType"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "Stride"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "_DisabledRangeIndex"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "init"]
+- !private ["Ps17CustomReflectable", "Element"]
+- !private ["Ps17CustomReflectable", "Index"]
+- !private ["Ps17CustomReflectable", "IndexDistance"]
+- !private ["Ps17CustomReflectable", "IntegerLiteralType"]
+- !private ["Ps17CustomReflectable", "Key"]
+- !private ["Ps17CustomReflectable", "Stride"]
+- !private ["Ps17CustomReflectable", "SubSequence"]
+- !private ["Ps17CustomReflectable", "Value"]
+- !private ["Ps17CustomReflectable", "_DisabledRangeIndex"]
+- !private ["Ps17CustomReflectable", "_Element"]
+- !private ["Ps17CustomReflectable", "init"]
+- !private ["Ps17CustomReflectable", "subscript"]
+- !private ["Ps23CustomStringConvertible", "Element"]
+- !private ["Ps23CustomStringConvertible", "Index"]
+- !private ["Ps23CustomStringConvertible", "IndexDistance"]
+- !private ["Ps23CustomStringConvertible", "IntegerLiteralType"]
+- !private ["Ps23CustomStringConvertible", "Key"]
+- !private ["Ps23CustomStringConvertible", "Stride"]
+- !private ["Ps23CustomStringConvertible", "SubSequence"]
+- !private ["Ps23CustomStringConvertible", "UNNotificationAttachment"]
+- !private ["Ps23CustomStringConvertible", "UNNotificationAttachmentOptionsTypeHintKey"]
+- !private ["Ps23CustomStringConvertible", "URL"]
+- !private ["Ps23CustomStringConvertible", "URLSession"]
+- !private ["Ps23CustomStringConvertible", "URLSessionConfiguration"]
+- !private ["Ps23CustomStringConvertible", "Value"]
+- !private ["Ps23CustomStringConvertible", "_DisabledRangeIndex"]
+- !private ["Ps23CustomStringConvertible", "_Element"]
+- !private ["Ps23CustomStringConvertible", "attachments"]
+- ["Ps23CustomStringConvertible", "bestAttemptContent"]
+- !private ["Ps23CustomStringConvertible", "content"]
+- ["Ps23CustomStringConvertible", "contentHandler"]
+- !private ["Ps23CustomStringConvertible", "default"]
+- ["Ps23CustomStringConvertible", "didReceive"]
+- !private ["Ps23CustomStringConvertible", "downloadTask"]
+- !private ["Ps23CustomStringConvertible", "init"]
+- !private ["Ps23CustomStringConvertible", "kUTTypePNG"]
+- !private ["Ps23CustomStringConvertible", "mutableCopy"]
+- !private ["Ps23CustomStringConvertible", "print"]
+- !private ["Ps23CustomStringConvertible", "resume"]
+- ["Ps23CustomStringConvertible", "serviceExtensionTimeWillExpire"]
+- !private ["Ps23CustomStringConvertible", "subscript"]
+- !private ["Ps23CustomStringConvertible", "userInfo"]
+- ["Ps23CustomStringConvertible", ""]
+- !private ["Vs10Dictionary", "Index"]
+- !private ["Vs10Dictionary", "IndexDistance"]
+- !private ["Vs10Dictionary", "Key"]
+- !private ["Vs10Dictionary", "SubSequence"]
+- !private ["Vs10Dictionary", "Value"]
+- !private ["Vs10Dictionary", "_Element"]
+- !private ["Vs10Dictionary", "deinit"]
+- !private ["Vs10Dictionary", "subscript"]
+- !private ["Vs15DictionaryIndex", "deinit"]
+- !private ["Sd", "deinit"]
+- !private ["Ps9Equatable", "IntegerLiteralType"]
+- !private ["Ps9Equatable", "Stride"]
+- !private ["Ps9Equatable", "UNNotificationAttachment"]
+- !private ["Ps9Equatable", "UNNotificationAttachmentOptionsTypeHintKey"]
+- !private ["Ps9Equatable", "URL"]
+- !private ["Ps9Equatable", "URLSession"]
+- !private ["Ps9Equatable", "URLSessionConfiguration"]
+- !private ["Ps9Equatable", "_DisabledRangeIndex"]
+- !private ["Ps9Equatable", "attachments"]
+- ["Ps9Equatable", "bestAttemptContent"]
+- !private ["Ps9Equatable", "content"]
+- ["Ps9Equatable", "contentHandler"]
+- !private ["Ps9Equatable", "default"]
+- ["Ps9Equatable", "didReceive"]
+- !private ["Ps9Equatable", "downloadTask"]
+- !private ["Ps9Equatable", "init"]
+- !private ["Ps9Equatable", "kUTTypePNG"]
+- !private ["Ps9Equatable", "mutableCopy"]
+- !private ["Ps9Equatable", "print"]
+- !private ["Ps9Equatable", "resume"]
+- ["Ps9Equatable", "serviceExtensionTimeWillExpire"]
+- !private ["Ps9Equatable", "userInfo"]
+- ["Ps9Equatable", ""]
+- !private ["Ps5Error", "deinit"]
+- !private ["Ps5Error", "localizedDescription"]
+- !private ["Ps25ExpressibleByArrayLiteral", "Element"]
+- !private ["Ps30ExpressibleByDictionaryLiteral", "Index"]
+- !private ["Ps30ExpressibleByDictionaryLiteral", "IndexDistance"]
+- !private ["Ps30ExpressibleByDictionaryLiteral", "Key"]
+- !private ["Ps30ExpressibleByDictionaryLiteral", "SubSequence"]
+- !private ["Ps30ExpressibleByDictionaryLiteral", "Value"]
+- !private ["Ps30ExpressibleByDictionaryLiteral", "_Element"]
+- !private ["Ps30ExpressibleByDictionaryLiteral", "subscript"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps27ExpressibleByIntegerLiteral", "IntegerLiteralType"]
+- !private ["Ps27ExpressibleByIntegerLiteral", "Stride"]
+- !private ["Ps27ExpressibleByIntegerLiteral", "_DisabledRangeIndex"]
+- !private ["Ps32ExpressibleByStringInterpolation", "init"]
+- !private ["Ps26ExpressibleByStringLiteral", "init"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "init"]
+- !private ["Sf", "deinit"]
+- !private ["Ps8Hashable", "IntegerLiteralType"]
+- !private ["Ps8Hashable", "Stride"]
+- !private ["Ps8Hashable", "UNNotificationAttachment"]
+- !private ["Ps8Hashable", "UNNotificationAttachmentOptionsTypeHintKey"]
+- !private ["Ps8Hashable", "URL"]
+- !private ["Ps8Hashable", "URLSession"]
+- !private ["Ps8Hashable", "URLSessionConfiguration"]
+- !private ["Ps8Hashable", "_DisabledRangeIndex"]
+- !private ["Ps8Hashable", "attachments"]
+- ["Ps8Hashable", "bestAttemptContent"]
+- !private ["Ps8Hashable", "content"]
+- ["Ps8Hashable", "contentHandler"]
+- !private ["Ps8Hashable", "default"]
+- ["Ps8Hashable", "didReceive"]
+- !private ["Ps8Hashable", "downloadTask"]
+- !private ["Ps8Hashable", "init"]
+- !private ["Ps8Hashable", "kUTTypePNG"]
+- !private ["Ps8Hashable", "mutableCopy"]
+- !private ["Ps8Hashable", "print"]
+- !private ["Ps8Hashable", "resume"]
+- ["Ps8Hashable", "serviceExtensionTimeWillExpire"]
+- !private ["Ps8Hashable", "userInfo"]
+- ["Ps8Hashable", ""]
+- !private ["Ps9Indexable", "Element"]
+- !private ["Ps9Indexable", "Index"]
+- !private ["Ps9Indexable", "IndexDistance"]
+- !private ["Ps9Indexable", "Iterator"]
+- !private ["Ps9Indexable", "Key"]
+- !private ["Ps9Indexable", "SubSequence"]
+- !private ["Ps9Indexable", "Value"]
+- !private ["Ps9Indexable", "_Element"]
+- !private ["Ps9Indexable", "subscript"]
+- !private ["Ps13IndexableBase", "Element"]
+- !private ["Ps13IndexableBase", "Index"]
+- !private ["Ps13IndexableBase", "IndexDistance"]
+- !private ["Ps13IndexableBase", "Iterator"]
+- !private ["Ps13IndexableBase", "Key"]
+- !private ["Ps13IndexableBase", "SubSequence"]
+- !private ["Ps13IndexableBase", "Value"]
+- !private ["Ps13IndexableBase", "_Element"]
+- !private ["Ps13IndexableBase", "subscript"]
+- !private ["Vs16IndexingIterator", "Element"]
+- !private ["Si", "IntegerLiteralType"]
+- !private ["Si", "Stride"]
+- !private ["Si", "_DisabledRangeIndex"]
+- !private ["Si", "deinit"]
+- !private ["Vs5Int16", "deinit"]
+- !private ["Vs5Int32", "deinit"]
+- !private ["Vs5Int64", "deinit"]
+- !private ["Vs4Int8", "deinit"]
+- !private ["Ps7Integer", "IntegerLiteralType"]
+- !private ["Ps7Integer", "Stride"]
+- !private ["Ps7Integer", "_DisabledRangeIndex"]
+- !private ["Ps17IntegerArithmetic", "IntegerLiteralType"]
+- !private ["Ps17IntegerArithmetic", "Stride"]
+- !private ["Ps17IntegerArithmetic", "_DisabledRangeIndex"]
+- !private ["Ps16IteratorProtocol", "Element"]
+- !private ["Ps25LosslessStringConvertible", "init"]
+- !private ["Ps10MirrorPath", "IntegerLiteralType"]
+- !private ["Ps10MirrorPath", "Stride"]
+- !private ["Ps10MirrorPath", "_DisabledRangeIndex"]
+- !private ["Ps10MirrorPath", "init"]
+- !private ["Ps17MutableCollection", "Element"]
+- !private ["Ps16MutableIndexable", "Element"]
+- !private ["PSo8NSCoding", "attachments"]
+- !private ["PSo8NSCoding", "content"]
+- !private ["PSo8NSCoding", "init"]
+- !private ["PSo8NSCoding", "mutableCopy"]
+- !private ["PSo8NSCoding", "userInfo"]
+- !private ["PSo9NSCopying", "attachments"]
+- !private ["PSo9NSCopying", "content"]
+- !private ["PSo9NSCopying", "default"]
+- !private ["PSo9NSCopying", "init"]
+- !private ["PSo9NSCopying", "mutableCopy"]
+- !private ["PSo9NSCopying", "resume"]
+- !private ["PSo9NSCopying", "userInfo"]
+- !private ["PSo16NSMutableCopying", "attachments"]
+- !private ["PSo16NSMutableCopying", "init"]
+- !private ["PSo16NSMutableCopying", "mutableCopy"]
+- !private ["PSo16NSMutableCopying", "userInfo"]
+- !private ["CSo8NSObject", "String"]
+- ["CSo8NSObject", "UNMutableNotificationContent"]
+- !private ["CSo8NSObject", "UNNotificationAttachment"]
+- !private ["CSo8NSObject", "UNNotificationAttachmentOptionsTypeHintKey"]
+- ["CSo8NSObject", "UNNotificationContent"]
+- ["CSo8NSObject", "UNNotificationRequest"]
+- !private ["CSo8NSObject", "URL"]
+- !private ["CSo8NSObject", "URLSession"]
+- !private ["CSo8NSObject", "URLSessionConfiguration"]
+- ["CSo8NSObject", "Void"]
+- !private ["CSo8NSObject", "attachments"]
+- ["CSo8NSObject", "bestAttemptContent"]
+- !private ["CSo8NSObject", "content"]
+- ["CSo8NSObject", "contentHandler"]
+- !private ["CSo8NSObject", "default"]
+- ["CSo8NSObject", "didReceive"]
+- !private ["CSo8NSObject", "downloadTask"]
+- ["CSo8NSObject", "init"]
+- !private ["CSo8NSObject", "kUTTypePNG"]
+- !private ["CSo8NSObject", "mutableCopy"]
+- !private ["CSo8NSObject", "print"]
+- !private ["CSo8NSObject", "resume"]
+- ["CSo8NSObject", "serviceExtensionTimeWillExpire"]
+- !private ["CSo8NSObject", "userInfo"]
+- !private ["PSo16NSObjectProtocol", "UNNotificationAttachment"]
+- !private ["PSo16NSObjectProtocol", "UNNotificationAttachmentOptionsTypeHintKey"]
+- !private ["PSo16NSObjectProtocol", "URL"]
+- !private ["PSo16NSObjectProtocol", "URLSession"]
+- !private ["PSo16NSObjectProtocol", "URLSessionConfiguration"]
+- !private ["PSo16NSObjectProtocol", "attachments"]
+- ["PSo16NSObjectProtocol", "bestAttemptContent"]
+- !private ["PSo16NSObjectProtocol", "content"]
+- ["PSo16NSObjectProtocol", "contentHandler"]
+- !private ["PSo16NSObjectProtocol", "default"]
+- ["PSo16NSObjectProtocol", "didReceive"]
+- !private ["PSo16NSObjectProtocol", "downloadTask"]
+- !private ["PSo16NSObjectProtocol", "init"]
+- !private ["PSo16NSObjectProtocol", "kUTTypePNG"]
+- !private ["PSo16NSObjectProtocol", "mutableCopy"]
+- !private ["PSo16NSObjectProtocol", "print"]
+- !private ["PSo16NSObjectProtocol", "resume"]
+- ["PSo16NSObjectProtocol", "serviceExtensionTimeWillExpire"]
+- !private ["PSo16NSObjectProtocol", "userInfo"]
+- ["PSo16NSObjectProtocol", ""]
+- !private ["PSo14NSSecureCoding", "attachments"]
+- !private ["PSo14NSSecureCoding", "content"]
+- !private ["PSo14NSSecureCoding", "init"]
+- !private ["PSo14NSSecureCoding", "mutableCopy"]
+- !private ["PSo14NSSecureCoding", "userInfo"]
+- !private ["CSo8NSString", "init"]
+- !private ["C16ServiceExtension19NotificationService", "String"]
+- ["C16ServiceExtension19NotificationService", "UNMutableNotificationContent"]
+- !private ["C16ServiceExtension19NotificationService", "UNNotificationAttachment"]
+- !private ["C16ServiceExtension19NotificationService", "UNNotificationAttachmentOptionsTypeHintKey"]
+- ["C16ServiceExtension19NotificationService", "UNNotificationContent"]
+- ["C16ServiceExtension19NotificationService", "UNNotificationRequest"]
+- !private ["C16ServiceExtension19NotificationService", "URL"]
+- !private ["C16ServiceExtension19NotificationService", "URLSession"]
+- !private ["C16ServiceExtension19NotificationService", "URLSessionConfiguration"]
+- ["C16ServiceExtension19NotificationService", "Void"]
+- ["C16ServiceExtension19NotificationService", "bestAttemptContent"]
+- ["C16ServiceExtension19NotificationService", "contentHandler"]
+- ["C16ServiceExtension19NotificationService", "deinit"]
+- ["C16ServiceExtension19NotificationService", "didReceive"]
+- ["C16ServiceExtension19NotificationService", "init"]
+- !private ["C16ServiceExtension19NotificationService", "kUTTypePNG"]
+- !private ["C16ServiceExtension19NotificationService", "print"]
+- ["C16ServiceExtension19NotificationService", "serviceExtensionTimeWillExpire"]
+- ["Sq", "deinit"]
+- !private ["Ps22RandomAccessCollection", "Element"]
+- !private ["Ps21RandomAccessIndexable", "Element"]
+- !private ["Vs5Range", "deinit"]
+- !private ["Ps26RangeReplaceableCollection", "Element"]
+- !private ["Ps25RangeReplaceableIndexable", "Element"]
+- !private ["P10Foundation20ReferenceConvertible", "init"]
+- !private ["Ps8Sequence", "Element"]
+- !private ["Ps8Sequence", "Index"]
+- !private ["Ps8Sequence", "IndexDistance"]
+- !private ["Ps8Sequence", "Iterator"]
+- !private ["Ps8Sequence", "Key"]
+- !private ["Ps8Sequence", "SubSequence"]
+- !private ["Ps8Sequence", "Value"]
+- !private ["Ps8Sequence", "_Element"]
+- !private ["Ps8Sequence", "subscript"]
+- !private ["Ps13SignedInteger", "IntegerLiteralType"]
+- !private ["Ps13SignedInteger", "Stride"]
+- !private ["Ps13SignedInteger", "_DisabledRangeIndex"]
+- !private ["Ps12SignedNumber", "IntegerLiteralType"]
+- !private ["Ps12SignedNumber", "Stride"]
+- !private ["Ps12SignedNumber", "_DisabledRangeIndex"]
+- !private ["Vs5Slice", "Index"]
+- !private ["Vs5Slice", "Iterator"]
+- !private ["Vs5Slice", "SubSequence"]
+- !private ["Vs5Slice", "_Element"]
+- !private ["Ps10Strideable", "IntegerLiteralType"]
+- !private ["Ps10Strideable", "Stride"]
+- !private ["Ps10Strideable", "_DisabledRangeIndex"]
+- ["SS", "deinit"]
+- !private ["SS", "init"]
+- !private ["Ps16TextOutputStream", "init"]
+- !private ["Ps20TextOutputStreamable", "init"]
+- !private ["Su", "deinit"]
+- !private ["Vs6UInt16", "deinit"]
+- !private ["Vs6UInt32", "deinit"]
+- !private ["Vs6UInt64", "deinit"]
+- !private ["Vs5UInt8", "deinit"]
+- !private ["CSo28UNMutableNotificationContent", "attachments"]
+- ["CSo28UNMutableNotificationContent", "deinit"]
+- !private ["CSo28UNMutableNotificationContent", "userInfo"]
+- !private ["CSo24UNNotificationAttachment", "deinit"]
+- !private ["CSo24UNNotificationAttachment", "init"]
+- !private ["CSo21UNNotificationContent", "attachments"]
+- ["CSo21UNNotificationContent", "deinit"]
+- !private ["CSo21UNNotificationContent", "mutableCopy"]
+- !private ["CSo21UNNotificationContent", "userInfo"]
+- !private ["CSo21UNNotificationRequest", "content"]
+- ["CSo21UNNotificationRequest", "deinit"]
+- !private ["CSo30UNNotificationServiceExtension", "String"]
+- ["CSo30UNNotificationServiceExtension", "UNMutableNotificationContent"]
+- !private ["CSo30UNNotificationServiceExtension", "UNNotificationAttachment"]
+- !private ["CSo30UNNotificationServiceExtension", "UNNotificationAttachmentOptionsTypeHintKey"]
+- ["CSo30UNNotificationServiceExtension", "UNNotificationContent"]
+- ["CSo30UNNotificationServiceExtension", "UNNotificationRequest"]
+- !private ["CSo30UNNotificationServiceExtension", "URL"]
+- !private ["CSo30UNNotificationServiceExtension", "URLSession"]
+- !private ["CSo30UNNotificationServiceExtension", "URLSessionConfiguration"]
+- ["CSo30UNNotificationServiceExtension", "Void"]
+- ["CSo30UNNotificationServiceExtension", "bestAttemptContent"]
+- ["CSo30UNNotificationServiceExtension", "contentHandler"]
+- ["CSo30UNNotificationServiceExtension", "deinit"]
+- ["CSo30UNNotificationServiceExtension", "didReceive"]
+- ["CSo30UNNotificationServiceExtension", "init"]
+- !private ["CSo30UNNotificationServiceExtension", "kUTTypePNG"]
+- !private ["CSo30UNNotificationServiceExtension", "print"]
+- ["CSo30UNNotificationServiceExtension", "serviceExtensionTimeWillExpire"]
+- ["CSo30UNNotificationServiceExtension", ""]
+- ["V10Foundation3URL", "deinit"]
+- !private ["V10Foundation3URL", "init"]
+- ["CSo10URLSession", "deinit"]
+- !private ["CSo10URLSession", "downloadTask"]
+- !private ["CSo10URLSession", "init"]
+- !private ["CSo23URLSessionConfiguration", "default"]
+- ["CSo23URLSessionConfiguration", "deinit"]
+- ["CSo22URLSessionDownloadTask", "deinit"]
+- !private ["CSo22URLSessionDownloadTask", "resume"]
+- !private ["CSo14URLSessionTask", "resume"]
+- !private ["Sc", "deinit"]
+- !private ["Ps14_ArrayProtocol", "Element"]
+- !private ["Ps24_DestructorSafeContainer", "Element"]
+- !private ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps35_ExpressibleByBuiltinIntegerLiteral", "IntegerLiteralType"]
+- !private ["Ps35_ExpressibleByBuiltinIntegerLiteral", "Stride"]
+- !private ["Ps35_ExpressibleByBuiltinIntegerLiteral", "_DisabledRangeIndex"]
+- !private ["Ps34_ExpressibleByBuiltinStringLiteral", "init"]
+- !private ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "init"]
+- !private ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "init"]
+- !private ["Ps34_ExpressibleByFileReferenceLiteral", "init"]
+- !private ["Ps35_HasCustomAnyHashableRepresentation", "init"]
+- !private ["Ps9_Hashable", "IntegerLiteralType"]
+- !private ["Ps9_Hashable", "Stride"]
+- !private ["Ps9_Hashable", "UNNotificationAttachment"]
+- !private ["Ps9_Hashable", "UNNotificationAttachmentOptionsTypeHintKey"]
+- !private ["Ps9_Hashable", "URL"]
+- !private ["Ps9_Hashable", "URLSession"]
+- !private ["Ps9_Hashable", "URLSessionConfiguration"]
+- !private ["Ps9_Hashable", "_DisabledRangeIndex"]
+- !private ["Ps9_Hashable", "attachments"]
+- ["Ps9_Hashable", "bestAttemptContent"]
+- !private ["Ps9_Hashable", "content"]
+- ["Ps9_Hashable", "contentHandler"]
+- !private ["Ps9_Hashable", "default"]
+- !private ["Ps9_Hashable", "deinit"]
+- ["Ps9_Hashable", "didReceive"]
+- !private ["Ps9_Hashable", "downloadTask"]
+- !private ["Ps9_Hashable", "init"]
+- !private ["Ps9_Hashable", "kUTTypePNG"]
+- !private ["Ps9_Hashable", "mutableCopy"]
+- !private ["Ps9_Hashable", "print"]
+- !private ["Ps9_Hashable", "resume"]
+- ["Ps9_Hashable", "serviceExtensionTimeWillExpire"]
+- !private ["Ps9_Hashable", "userInfo"]
+- ["Ps9_Hashable", ""]
+- !private ["Ps14_Incrementable", "IntegerLiteralType"]
+- !private ["Ps14_Incrementable", "Stride"]
+- !private ["Ps14_Incrementable", "_DisabledRangeIndex"]
+- !private ["Ps8_Integer", "IntegerLiteralType"]
+- !private ["Ps8_Integer", "Stride"]
+- !private ["Ps8_Integer", "_DisabledRangeIndex"]
+- !private ["Ps18_IntegerArithmetic", "IntegerLiteralType"]
+- !private ["Ps18_IntegerArithmetic", "Stride"]
+- !private ["Ps18_IntegerArithmetic", "_DisabledRangeIndex"]
+- !private ["Ps21_ObjectiveCBridgeable", "Element"]
+- !private ["Ps21_ObjectiveCBridgeable", "Index"]
+- !private ["Ps21_ObjectiveCBridgeable", "IndexDistance"]
+- !private ["Ps21_ObjectiveCBridgeable", "IntegerLiteralType"]
+- !private ["Ps21_ObjectiveCBridgeable", "Key"]
+- !private ["Ps21_ObjectiveCBridgeable", "Stride"]
+- !private ["Ps21_ObjectiveCBridgeable", "SubSequence"]
+- !private ["Ps21_ObjectiveCBridgeable", "Value"]
+- !private ["Ps21_ObjectiveCBridgeable", "_DisabledRangeIndex"]
+- !private ["Ps21_ObjectiveCBridgeable", "_Element"]
+- !private ["Ps21_ObjectiveCBridgeable", "init"]
+- !private ["Ps21_ObjectiveCBridgeable", "subscript"]
+- !private ["Ps14_SignedInteger", "IntegerLiteralType"]
+- !private ["Ps14_SignedInteger", "Stride"]
+- !private ["Ps14_SignedInteger", "_DisabledRangeIndex"]
+- !private ["Ps11_Strideable", "IntegerLiteralType"]
+- !private ["Ps11_Strideable", "Stride"]
+- !private ["Ps11_Strideable", "_DisabledRangeIndex"]
+depends-nominal:
+- !private "Vs11AnyHashable"
+- "Ps9AnyObject"
+- !private "Sa"
+- !private "Ps23BidirectionalCollection"
+- !private "Ps22BidirectionalIndexable"
+- !private "Ps17BitwiseOperations"
+- !private "Sb"
+- !private "CSo8CFString"
+- "Ps7CVarArg"
+- !private "Vs9Character"
+- !private "Vs11ClosedRange"
+- !private "Ps10Collection"
+- !private "Ps10Comparable"
+- "Ps28CustomDebugStringConvertible"
+- !private "Ps29CustomPlaygroundQuickLookable"
+- !private "Ps17CustomReflectable"
+- "Ps23CustomStringConvertible"
+- !private "Vs10Dictionary"
+- !private "Vs15DictionaryIndex"
+- !private "Sd"
+- "Ps9Equatable"
+- !private "Ps5Error"
+- !private "Ps25ExpressibleByArrayLiteral"
+- !private "Ps30ExpressibleByDictionaryLiteral"
+- !private "Ps43ExpressibleByExtendedGraphemeClusterLiteral"
+- !private "Ps27ExpressibleByIntegerLiteral"
+- !private "Ps32ExpressibleByStringInterpolation"
+- !private "Ps26ExpressibleByStringLiteral"
+- !private "Ps33ExpressibleByUnicodeScalarLiteral"
+- !private "Sf"
+- "Ps8Hashable"
+- !private "Ps9Indexable"
+- !private "Ps13IndexableBase"
+- !private "Vs16IndexingIterator"
+- !private "Si"
+- !private "Vs5Int16"
+- !private "Vs5Int32"
+- !private "Vs5Int64"
+- !private "Vs4Int8"
+- !private "Ps7Integer"
+- !private "Ps17IntegerArithmetic"
+- !private "Ps16IteratorProtocol"
+- !private "Ps25LosslessStringConvertible"
+- !private "Ps10MirrorPath"
+- !private "Ps17MutableCollection"
+- !private "Ps16MutableIndexable"
+- !private "PSo8NSCoding"
+- !private "PSo9NSCopying"
+- !private "PSo16NSMutableCopying"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- !private "PSo14NSSecureCoding"
+- !private "CSo8NSString"
+- "C16ServiceExtension19NotificationService"
+- "Sq"
+- !private "Ps22RandomAccessCollection"
+- !private "Ps21RandomAccessIndexable"
+- !private "Vs5Range"
+- !private "Ps26RangeReplaceableCollection"
+- !private "Ps25RangeReplaceableIndexable"
+- !private "P10Foundation20ReferenceConvertible"
+- !private "Ps8Sequence"
+- !private "Ps13SignedInteger"
+- !private "Ps12SignedNumber"
+- !private "Vs5Slice"
+- !private "Ps10Strideable"
+- "SS"
+- !private "Ps16TextOutputStream"
+- !private "Ps20TextOutputStreamable"
+- !private "Su"
+- !private "Vs6UInt16"
+- !private "Vs6UInt32"
+- !private "Vs6UInt64"
+- !private "Vs5UInt8"
+- "CSo28UNMutableNotificationContent"
+- !private "CSo24UNNotificationAttachment"
+- "CSo21UNNotificationContent"
+- "CSo21UNNotificationRequest"
+- "CSo30UNNotificationServiceExtension"
+- "V10Foundation3URL"
+- "CSo10URLSession"
+- "CSo23URLSessionConfiguration"
+- "CSo22URLSessionDownloadTask"
+- !private "CSo14URLSessionTask"
+- !private "Sc"
+- !private "Ps14_ArrayProtocol"
+- !private "Ps24_DestructorSafeContainer"
+- !private "Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral"
+- !private "Ps35_ExpressibleByBuiltinIntegerLiteral"
+- !private "Ps34_ExpressibleByBuiltinStringLiteral"
+- !private "Ps39_ExpressibleByBuiltinUTF16StringLiteral"
+- !private "Ps41_ExpressibleByBuiltinUnicodeScalarLiteral"
+- !private "Ps34_ExpressibleByFileReferenceLiteral"
+- !private "Ps35_HasCustomAnyHashableRepresentation"
+- "Ps9_Hashable"
+- !private "Ps14_Incrementable"
+- !private "Ps8_Integer"
+- !private "Ps18_IntegerArithmetic"
+- !private "Ps21_ObjectiveCBridgeable"
+- !private "Ps14_SignedInteger"
+- !private "Ps11_Strideable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+interface-hash: "dace1af2813736a3653f43c423a08c75"

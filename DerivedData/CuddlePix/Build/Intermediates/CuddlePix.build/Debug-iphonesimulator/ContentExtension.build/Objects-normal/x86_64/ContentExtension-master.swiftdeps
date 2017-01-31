@@ -1,0 +1,6 @@
+version: "Apple Swift version 3.0.2 (swiftlang-800.0.63 clang-800.0.42.1)"
+options: "0c050f8d3d233767b1133b8b2fce1fe2"
+build_time: [538960900, 155991000]
+inputs:
+  "/Users/sayonsomchanda/Desktop/final/CuddlePix/StarAnimator.swift": [527888654, 0]
+  "/Users/sayonsomchanda/Desktop/final/ContentExtension/NotificationViewController.swift": [527888654, 0]

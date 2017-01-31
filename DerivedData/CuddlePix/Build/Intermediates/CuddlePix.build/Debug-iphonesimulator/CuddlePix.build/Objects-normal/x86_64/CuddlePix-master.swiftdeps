@@ -1,0 +1,9 @@
+version: "Apple Swift version 3.0.2 (swiftlang-800.0.63 clang-800.0.42.1)"
+options: "5d1cadde03685302e7e22a04942f9ea4"
+build_time: [538960903, 367814000]
+inputs:
+  "/Users/sayonsomchanda/Desktop/final/CuddlePix/NotificationTableViewController.swift": [527888654, 0]
+  "/Users/sayonsomchanda/Desktop/final/CuddlePix/AppDelegate.swift": [527888654, 0]
+  "/Users/sayonsomchanda/Desktop/final/CuddlePix/TableSection.swift": [527888654, 0]
+  "/Users/sayonsomchanda/Desktop/final/CuddlePix/Data+HexString.swift": [527888654, 0]
+  "/Users/sayonsomchanda/Desktop/final/CuddlePix/ConfigurationViewController.swift": [538960881, 0]
